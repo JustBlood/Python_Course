@@ -3,12 +3,14 @@ class Vehicle:
     def __init__(self,position):
         self.position = position
 
-    def calculate_route(self, source, to):
-        return 0
+    
 
     def travel(self, destination):
-        route = calculate_route(self,source=self.position, to = destination)
+        route = self.calculate_route(self,source=self.position, to = destination)
         self.move_along(route)
+
+    def calculate_route(self, source, to):
+        return 0
 
     def move_along(self,route):
         print('moving')
