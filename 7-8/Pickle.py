@@ -26,8 +26,8 @@ c = Character('Elf', 100)
 c.hit(10)
 print(c.health)
 
-#with open('game_state.bin', 'w+b') as f:
-#    pickle.dump(c, f)
+with open('game_state.bin', 'w+b') as f:
+    pickle.dump(c, f)
 
 # Deliting our obj
 c = None

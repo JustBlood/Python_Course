@@ -1,6 +1,3 @@
-from tkinter.tix import DisplayStyle
-
-
 class StaticTest:
     x = 1
 
